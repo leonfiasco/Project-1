@@ -1,0 +1,194 @@
+html{
+  background-color: #10130E;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+div#mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  /* width: 1122 */
+}
+
+.heading {
+  position: relative;
+  display: block;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-top: -57;
+  color: #3C6329;
+}
+
+.leftContainer {
+  width: 20%;
+  display:inline-block;
+  justify-content: center;
+  margin: 0 0 0;
+}
+
+.middleContainer {
+  width: 60%;
+}
+
+.rightContainer {
+  width: 20%;
+  color: #4B5A43;
+  font-family: 'Press Start 2P', cursive;
+  /* margin-left: 628px; */
+  text-decoration: underline;
+  margin-bottom: 324px;
+}
+div h3 {
+  float: left;
+  color: #4B5A43;
+  font-family: 'Press Start 2P', cursive;
+  /* margin-left: 206px; */
+  text-decoration: underline;
+}
+
+.dialog{
+  display: none;
+  margin: 0 auto;
+  background-color: #790000;
+  width: 450px;
+  height: 450px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* .close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+} */
+
+#new-game {
+  font-family: 'Press Start 2P', cursive;
+  color: #3C6329;
+  background-color: #10130E;
+  margin-top: 29px;
+  margin-left: 601px;
+  border: 1px dotted #4B5A43;
+
+}
+
+
+
+
+.canvas {
+  justify-content: center;
+  margin-left: 168px;
+
+}
+
+#score1{
+  width: 20%;
+}
+
+ul {
+  color: #3E7213;
+  font-family: 'Press Start 2P', cursive;
+  float: left;
+  margin-bottom: 103px;
+}
+
+
+/* dialog box properties
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+//dialog box styling
+.modal-body {
+  display: none;
+  background-color: #790000;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid black;
+  width: 80%;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+.modal-header{
+  padding: 2px 16px;
+  background-color: #790000;
+  color: green;
+}
+
+//close button
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* span {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: green;
+  opacity: 0.5;
+  border-radius: 20px;
+  animation: snake 1s infinite ease-in-out;
+
+}
+
+span:nth-child(2){
+  left: 20px;
+  animation-delay: 0.2s;
+}
+
+span:nth-child(3){
+  left: 40px;
+  animation-delay: 0.4s;
+}
+
+span:nth-child(4){
+  left: 60px;
+  animation-delay: 0.6s;
+}
+
+span:nth-child(5){
+  left: 80px;
+  animation-delay: 0.8s;
+}
+
+span:nth-child(6){
+  left: 100px;
+  animation-delay: 0.10s;
+}
+
+span:nth-child(7){
+  left: 120px;
+  animation-delay: 0.12s;
+}
+@keyframes snake {
+  0% {opacity: 0.3; transform:translateY(0px);    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);}
+    50% {opacity: 1; transform: translateY(-10px); background:black;  box-shadow: 0px 20px 3px rgba(0, 0, 0, 0.05);}
+    100%  {opacity: 0.3; transform:translateY(0px); box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);} */
